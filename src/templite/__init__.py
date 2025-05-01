@@ -94,3 +94,4 @@ class Templite:
     def write(self, *args):
         for a in args:
             self.__output.append(unicode_type(a))
+            print("11111111111")
